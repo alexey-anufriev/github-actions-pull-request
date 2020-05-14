@@ -17,7 +17,7 @@ public class CalcTest {
 
     @Test
     public void shouldMultiplyTwoNumbers() {
-        Assertions.assertEquals(11, new Calc().mul(2, 5));
+        Assertions.assertEquals(10, new Calc().mul(2, 5));
     }
 
 }

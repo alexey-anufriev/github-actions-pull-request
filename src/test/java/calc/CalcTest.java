@@ -10,4 +10,9 @@ public class CalcTest {
         Assertions.assertEquals(2, new Calc().sum(-1, 3));
     }
 
+    @Test
+    public void shouldSubtractTwoNumbers() {
+        Assertions.assertEquals(-2, new Calc().subtract(3, 5));
+    }
+
 }
